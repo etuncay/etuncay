@@ -1,16 +1,36 @@
-### Hi there 👋
+# 🙋‍♂️ Hello Dear All !
 
-<!--
-**etuncay/etuncay** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+- I am Emrullah. 
 
-Here are some ideas to get you started:
+## 👉 Follow This List
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- [💁 About Me](#-about-me)
+- [💪 Technical Skills](#-technical-skills)
+- [💼 Work Preferences](#-work-preferences)
+- [💬 Contact](#-contact)
+
+## 💁 About Me 
+
+### Professionally 
+
+
+### Academically 
+
+
+### Personally 
+
+
+## 💪 Technical Skills 
+
+
+
+## 💼 Work Preferences 
+
+
+## 💬 Contact 
+
+- You can contact me via [My Linkedin Account](https://linkedin.com/in/emrullahtuncay). 
+
+## [🔝 Back to Top](#-follow-this-list) 
+
+
