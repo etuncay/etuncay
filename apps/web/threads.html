@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="tr" class="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Threads</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="/assets/css/responsive.css" />
+</head>
+<body class="bg-neutral-900 text-neutral-100 min-h-screen flex">
+  <aside class="w-64 bg-neutral-950 hidden md:flex flex-col border-r border-neutral-800">
+    <div class="p-4 font-semibold">RAG Chat</div>
+    <nav class="flex-1 p-2 space-y-1">
+      <a href="/index.html" class="block px-3 py-2 rounded hover:bg-neutral-800">Sohbet</a>
+      <a href="/workspaces.html" class="block px-3 py-2 rounded hover:bg-neutral-800">Workspaces</a>
+      <a href="/threads.html" class="block px-3 py-2 rounded hover:bg-neutral-800">Threads</a>
+      <a href="/upload.html" class="block px-3 py-2 rounded hover:bg-neutral-800">Dosya Yükleme</a>
+    </nav>
+  </aside>
+
+  <main class="flex-1 p-4 space-y-4">
+    <div class="flex items-center gap-2">
+      <input id="filterWorkspaceId" class="bg-neutral-800 rounded px-3 py-2" placeholder="Workspace Id ile filtrele" />
+      <button id="loadThreads" class="bg-neutral-700 px-3 py-2 rounded">Yükle</button>
+    </div>
+    <div id="threadList" class="space-y-2"></div>
+  </main>
+
+  <script src="/assets/js/threads.js"></script>
+</body>
+</html>

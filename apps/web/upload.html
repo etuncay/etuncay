@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="tr" class="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dosya Yükleme</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="/assets/css/responsive.css" />
+</head>
+<body class="bg-neutral-900 text-neutral-100 min-h-screen flex">
+  <aside class="w-64 bg-neutral-950 hidden md:flex flex-col border-r border-neutral-800">
+    <div class="p-4 font-semibold">RAG Chat</div>
+    <nav class="flex-1 p-2 space-y-1">
+      <a href="/index.html" class="block px-3 py-2 rounded hover:bg-neutral-800">Sohbet</a>
+      <a href="/workspaces.html" class="block px-3 py-2 rounded hover:bg-neutral-800">Workspaces</a>
+      <a href="/threads.html" class="block px-3 py-2 rounded hover:bg-neutral-800">Threads</a>
+      <a href="/upload.html" class="block px-3 py-2 rounded hover:bg-neutral-800">Dosya Yükleme</a>
+    </nav>
+  </aside>
+
+  <main class="flex-1 p-4 space-y-4">
+    <div class="flex items-center gap-2">
+      <input id="wsId" class="bg-neutral-800 rounded px-3 py-2" placeholder="Workspace Id" />
+    </div>
+
+    <div id="dropzone" class="border-2 border-dashed border-neutral-700 rounded p-10 text-center hover:border-emerald-600">
+      Sürükleyip bırakın veya tıklayın
+      <input id="fileInput" type="file" multiple class="hidden" />
+    </div>
+
+    <button id="uploadBtn" class="bg-emerald-600 hover:bg-emerald-500 px-4 py-2 rounded">Yükle</button>
+
+    <div id="uploadList" class="mt-4 space-y-2"></div>
+  </main>
+
+  <script src="/assets/js/upload.js"></script>
+</body>
+</html>
